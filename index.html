@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Employment Agency Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              border: "hsl(214.3 31.8% 91.4%)",
+              input: "hsl(214.3 31.8% 91.4%)",
+              ring: "hsl(215 20.2% 65.1%)",
+              background: "hsl(0 0% 100%)",
+              foreground: "hsl(222.2 84% 4.9%)",
+              primary: {
+                DEFAULT: "hsl(222.2 47.4% 11.2%)",
+                foreground: "hsl(210 40% 98%)",
+              },
+              secondary: {
+                DEFAULT: "hsl(210 40% 96.1%)",
+                foreground: "hsl(222.2 47.4% 11.2%)",
+              },
+              destructive: {
+                DEFAULT: "hsl(0 84.2% 60.2%)",
+                foreground: "hsl(210 40% 98%)",
+              },
+              muted: {
+                DEFAULT: "hsl(210 40% 96.1%)",
+                foreground: "hsl(215.4 16.3% 46.9%)",
+              },
+              accent: {
+                DEFAULT: "hsl(210 40% 96.1%)",
+                foreground: "hsl(222.2 47.4% 11.2%)",
+              },
+              popover: {
+                DEFAULT: "hsl(0 0% 100%)",
+                foreground: "hsl(222.2 84% 4.9%)",
+              },
+              card: {
+                DEFAULT: "hsl(0 0% 100%)",
+                foreground: "hsl(222.2 84% 4.9%)",
+              },
+            },
+          }
+        }
+      }
+    </script>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.10.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.525.0",
+    "recharts": "https://esm.sh/recharts@^2.13.0",
+    "netlify-identity-widget": "https://esm.sh/netlify-identity-widget@^1.9.2",
+    "@netlify/functions": "https://esm.sh/@netlify/functions@^4.1.12"
+  }
+}
+</script>
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background text-foreground">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
